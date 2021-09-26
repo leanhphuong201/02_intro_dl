@@ -8,11 +8,15 @@ Create a `conda` environment for this exercise and activate it:
 conda create -n 02_intro_dl python
 conda activate 02_intro_dl
 ```
+Install the following packages
+
+```
+conda install tensorflow tensorflow-gpu keras matplotlib jupyter
+```
 
 Start Jupyter within this environment:
 
 ```
-pip install jupyter
 jupyter notebook
 ```
 
